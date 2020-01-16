@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindbugsPlugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="findbugsplugin.xsd"
+        pluginid="com.craftmaster2190.spotbugs.spring-transactional">
+
+        <Detector class="com.craftmaster2190.spotbugs.MyDetector" reports="MY_BUG" speed="fast" />
+
+        <BugPattern abbrev="MY" type="MY_BUG" category="CORRECTNESS" />
+</FindbugsPlugin>
